@@ -1,0 +1,159 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background: #d9d9d9;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+
+.leftPanel {
+    width: 20%;
+    background-color: #282c30;
+    background: linear-gradient(#2b343d, #282c30);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-shrink: 0;
+    min-width: 250px;
+    gap: 5px;
+}
+
+    .rightPanel {
+        width: 70%;
+        padding: 20px;
+        flex-shrink: 0;
+        min-width: 400px;
+    }
+
+
+    .rightPanel p {
+        line-height: 20px;
+    }
+
+    .rightPanel h1 {
+        color: #4b5157;
+    }
+
+    .rightPanel li {
+        line-height: 30px;
+    }
+
+
+h1, h2 {
+    color: #333;
+}
+
+.leftPanel h1, .leftPanel h2, .leftPanel p, .leftPanel span, a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.leftPanel h2 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin: 6px 0 4px 0;
+    text-transform: uppercase;
+}
+
+.leftPanel p {
+    font-size: 12px;
+    text-align: left;
+}
+
+.leftPanel span {
+    font-size: 20px;
+}
+
+
+.ProfilePicture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    align-content: center;
+    object-position: 50% 50%;
+    border: solid 2px;
+    border-color: white;
+}
+
+.iconsleft {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+    .iconsleft .iconsize {
+        width: 30px;
+        height: 30px;
+    }
+
+
+.iconsright {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    text-indent: 10px;
+}
+
+    .iconsright .iconsize {
+        width: 45px;
+        height: 45px;
+    }
+
+.section {
+    margin-bottom: 25px;
+}
+
+.skills span {
+    color: white;
+    display: inline-block;
+    background: #838C96; 
+    margin: 3px 7px 3px 0;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+.infotitle {
+    background: #616D79;
+    margin: 3px 7px 3px 0;
+    padding: 5px 12px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    align-self: center;
+}
+
+.project-highlight-box {
+    border-left: 4px solid #616D79;
+    background-color: #e0e0e0;
+    padding: 5px 15px 5px 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.projects {
+    background: transparent;
+    font-size: 18px;
+    list-style: none;
+    text-align: left;
+    gap: 15px;
+    color: #333;
+}
+
+.showMore , .projects a{
+    color: #516d94;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none;
+}
