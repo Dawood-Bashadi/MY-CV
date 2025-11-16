@@ -19,6 +19,7 @@
     padding: 5px;
     display: flex;
     flex-direction: column;
+    position: relative;
     align-items: center;
     align-content: center;
     flex-shrink: 0;
@@ -77,6 +78,7 @@ h1, h2 {
 .ProfilePicture {
     width: 120px;
     height: 120px;
+    margin-top: 20px;
     border-radius: 50%;
     align-content: center;
     object-position: 50% 50%;
@@ -85,10 +87,12 @@ h1, h2 {
 }
 
 .Logo {
-    width: 80px;
-    height: 80px;
-    align-content: center;
-    object-position: 50% 50%;
+   position: absolute; 
+    top: 10px;         
+    left: 10px;        
+    width: 60px;      
+    height: auto;       
+    z-index: 10;
 }
 
 .iconsleft {
