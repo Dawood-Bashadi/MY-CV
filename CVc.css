@@ -84,6 +84,13 @@ h1, h2 {
     border-color: white;
 }
 
+.Logo {
+    width: 80px;
+    height: 80px;
+    align-content: center;
+    object-position: 50% 50%;
+}
+
 .iconsleft {
     display: flex;
     align-items: center;
