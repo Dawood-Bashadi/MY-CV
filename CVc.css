@@ -65,7 +65,7 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-.leftPanel p {
+.leftPanel p{
     font-size: 12px;
     text-align: left;
 }
@@ -91,8 +91,16 @@ h1, h2 {
     top: 10px;         
     left: 10px;        
     width: 60px;      
-    height: auto;       
+    height: 60px;       
     z-index: 10;
+}
+
+.leftPanel .name{
+    font-size: 35px;
+}
+
+.leftPanel .descripe{
+    font-size: 13px;
 }
 
 .iconsleft {
@@ -123,7 +131,7 @@ h1, h2 {
     margin-bottom: 25px;
 }
 
-.skills span {
+.rounded span {
     color: white;
     display: inline-block;
     background: #838C96; 
